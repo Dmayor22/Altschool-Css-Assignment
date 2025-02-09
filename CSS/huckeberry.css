@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Mobile View for Site and genral styling */
+
+body {
+  font-family: lato;
+  max-width: 390px;
+  max-height: 844px;
+  min-width: 390px;
+  min-height: 844px;
+}
+
+.header {
+  width: 390px;
+  height: 382px;
+  border-bottom: 8px solid #999999;
+  background-color: #ffffff;
+}
+
+.header h2 {
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #000000;
+  width: 180px;
+  padding: 40px 0 0 24px;
+}
+
+.header p {
+  width: 342px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  padding: 4px;
+}
+
+.first_content {
+  padding: 20px 0 40px 24px;
+}
+
+.text_color {
+  font-weight: 800;
+  color: #009966;
+}
+
+.main {
+  width: 398px;
+  height: 767px;
+}
+
+.card {
+  width: 398px;
+  height: 496px;
+  border-bottom: 8px solid #999999;
+}
+
+.banner {
+  background-color: #ffbf00;
+  border-bottom: 8px solid #cc9900;
+}
+
+.wealth_text {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 800;
+  width: 318px;
+  padding: 6px 0 6px 18px;
+  color: #000000;
+  margin-top: 2px;
+}
+
+.card_details {
+  padding: 24px;
+  background-color: #fff;
+}
+.card_details p {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  width: 342px;
+  padding: 7px;
+}
+
+/* Tablet View for the Site */
+@media (min-width: 390px){
+  body {
+    min-width: 390px;
+    min-height: 844px;
+    max-width: 768px;
+    max-height: 1024px;
+  }
+
+  .header {
+    width: 768px;
+    height: 382px;
+  }
+
+  .header h2 {
+    width: 180px;
+  }
+  .header p {
+    width: 401px;
+  }
+
+  .better {
+    width: 405px;
+  }
+
+  .main {
+    width: 776px;
+    height: 456px;
+  }
+
+  .card {
+    width: 776px;
+    height: 312px;
+  }
+
+  .wealth_text {
+    width: 334px;
+    font-size: 20px;
+  }
+
+  .card_details p {
+    width: 720px;
+  }
+  .main::content {
+    background-color: #666666;
+    width: 768px;
+    height: 456px;
+  }
+}
+
+/* Desktop View for site */
+@media (min-width: 768px) {
+  body {
+    min-width: 768px;
+    min-height: 1024px;
+    max-width: 1280px;
+    max-height: 832px;
+  }
+
+  .header {
+    width: 1280px;
+    height: 382px;
+    padding: 40px 0 0 100px;
+  }
+
+  .header h2 {
+    width: 180px;
+  }
+  .header p {
+    width: 415px;
+  }
+
+  .better {
+    width: 415px;
+  }
+
+  .main {
+    width: 1280px;
+    height: 450px;
+    padding: 40px 0px 0px 100px;
+    background-color: #666666;
+  }
+
+  .card {
+    width: 808px;
+    height: 312px;
+    position: relative;
+  }
+
+  .banner {
+    width: 398px;
+    position: absolute;
+    top: 8px;
+    left: 0px;
+  }
+
+  .wealth_text {
+    width: 334px;
+    color: #000000;
+  }
+
+  .details_text {
+    width: 752px;
+    margin-top: 50px;
+  }
+}

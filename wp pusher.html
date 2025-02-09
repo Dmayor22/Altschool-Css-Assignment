@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/wp pusher.css" />
+    <title>WP PUSHER</title>
+  </head>
+  <body>
+    <header class="nav-bar">
+      <img src="images/wppusher-logo copy.png" alt="" class="logo" />
+
+      <nav class="nav">
+        <li><a href="#">Downlaod</a></li>
+        <li><a href="#">Learn more</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Help</a></li>
+        <button class="btn">Account</button>
+      </nav>
+    </header>
+    <div class="bar"></div>
+
+    <main class="panel">
+      <div class="form_data">
+        <h3 id="title">Checkout</h3>
+        <div class="title"></div>
+
+        <form action="#">
+          <div class="section_basic">
+            <div class="basic_container">
+              <span class="one">1</span>
+              <p id="basic_text">Your Basic Information</p>
+            </div>
+            <div class="name_container">
+              <div class="input">
+                <label for="Firstname">First name</label>
+                <input
+                  type="text"
+                  name="firstname"
+                  id="Firstname"
+                  placeholder="Jane"
+                />
+              </div>
+              <div class="input">
+                <label for="Lastname">Last name</label>
+                <input
+                  type="text"
+                  name="firstname"
+                  id="Lastname"
+                  placeholder="Doe"
+                />
+              </div>
+            </div>
+            <div class="input email">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="janedoe@example.com"
+              />
+            </div>
+          </div>
+          <div class="title"></div>
+
+          <div class="section_payment">
+            <div class="basic_container">
+              <span class="one two">2</span>
+              <p id="basic_text">Your Payment Information</p>
+            </div>
+            <div class="input cc">
+              <label for="cc">Credit Card</label>
+              <input
+                type="text"
+                name="cc"
+                id="cc"
+                autocomplete="cc-number"
+                placeholder="Card number                                                                     MM/YY            CVC"
+              />
+            </div>
+          </div>
+
+          <div class="purchase">
+            <input type="submit" value="Buy WP Pusher" class="submit" />
+            <div class="support">
+              <span class="one help">&quest;</span>
+              <p>
+                Need any help?
+                <a href="#"> Don't hesitate to contact support!</a>
+              </p>
+            </div>
+
+            <img src="images/Shape.png" alt="" class="shape" />
+          </div>
+        </form>
+      </div>
+
+      <aside class="sidebar">
+        <div class="sidebar_content">
+          <div class="plan">
+            <p>Freelancer</p>
+            <div class="pricing">
+              <p><sup id="dols">$</sup>99<span id="year">/ year</span></p>
+            </div>
+            <p id="auto_text">Automatically renews after 1 year</p>
+          </div>
+          <div class="details">
+            <ul>
+              <li><i class="bx bx-check-circle icon"></i>Use on 5 client sites</li>
+              <li><i class="bx bx-check-circle icon"></i>Private repositories</li>
+              <li><i class="bx bx-check-circle icon"></i>Email support</li>
+            </ul>
+          </div>
+          <div class="switch">
+            <p>
+              Need <b>20</b> client sites?
+              <a href="#">Switch to the Agency plan.</a>
+            </p>
+          </div>
+          <div class="quote">
+            <div class="line quote_line"></div>
+            <p>
+              FTP is horrible to deal with. <b>WP Pusher</b> solves that issue,
+              and the customer support is awesome!
+            </p>
+            <div class="profile">
+              <img src="images/Bitmap.png" alt="" />
+              <h4>Kirk Beard</h4>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2018 WP Pusher IVS · <a href="#">Terms of Service</a></p>
+    </footer>
+  </body>
+</html>
