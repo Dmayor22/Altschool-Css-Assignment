@@ -179,7 +179,7 @@
 
 .desktop {
   width: 1440px;
-  height: 982px;
+  height: 782px;
   margin: 0 auto;
   background-color: #fff;
 }
@@ -324,10 +324,8 @@
 
 .desktop_1 {
   width: 100%;
-  height: 1073px;
+  height: 973px;
   padding: 30px 140px;
-
-  border: 2px solid red;
 }
 
 .frame_5 {
@@ -386,65 +384,125 @@
 
 .plan_features_1,
 .plan_features_3 {
-  width: 379px;
-  height: 455px;
+  width: 329px;
+  height: 380px;
   border-radius: 12px;
   background-color: #fff;
   border: 0.4px solid #005ae2;
   box-shadow: 0 4px 8px 0 #0000000d;
 }
 
-/* .plan_features_1 {
-  padding-left: 50px;
-} */
+.plan_features_1 {
+  padding: 20px 0px 0px 60px;
+}
+.plan_features_3 {
+  padding: 20px 0px 0px 30px;
+}
 
-.plan_features_1 h4 {
-  margin-bottom: 20px;
+.plan_features_2 {
+  width: 400px;
+  height: 497px;
+  background-color: #1e3448;
+  color: #fff;
+  border: 0.4px solid #1e3448;
+  box-shadow: 0 4px 8px 0 #0000000d;
+  border-radius: 12px;
+  padding: 60px 0px 0px 40px;
+}
+
+.plan_features_2 h4 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.Features_1_prof {
+  width: 239px;
+  height: 328px;
+}
+.prof_head {
+  margin-bottom: 8px;
+}
+
+.prof_head span {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.prof_head p {
+  font-size: 20px;
+}
+
+.free_lists {
+  margin-top: 24px;
+}
+
+.free_lists ul {
+  list-style: none;
+}
+
+.free_lists ul li {
+  margin-bottom: 18px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.plan_text {
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .Features_1_free {
-  width: 379px;
-  height: 455px;
-}
-
-.free_head {
-  width: 194px;
-  height: 88px;
+  margin-top: 16px;
 }
 
 .free_head span {
   font-size: 40px;
-  line-height: 48px;
-  text-align: center;
-  color: #141414;
   font-weight: 700;
+}
+
+.free_head {
+  margin-bottom: 8px;
 }
 
 .free_head p {
   font-size: 20px;
 }
 
-.free_lists {
-  width: 186px;
-  height: 216px;
-}
-
-.free_lists ul {
-  padding-bottom: 300px;
-  list-style: none;
-}
-
-.plan_features_2 {
-  width: 410px;
-  height: 627px;
-  background-color: #1e3448;
-  color: #fff;
-  border: 0.4px solid #1e3448;
-  box-shadow: 0 4px 8px 0 #0000000d;
-  border-radius: 12px;
-}
-
 .icon {
-  margin-right: 3px;
   color: #005ae2;
+  font-size: 20px;
+}
+
+/* Pricing cta */
+.cta-pricing {
+  width: 412px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 12px;
+}
+
+.cta-pricing .prices-btn {
+  width: 200px;
+}
+
+#btn-white {
+  background-color: #fff;
+  color: #0065fe;
+  border: 1px solid #005ae2;
+}
+
+.prices-btn:hover {
+  background-color: #005ae2;
+  color: #fff;
+  transition: all 0.5s;
+}
+#btn-white:hover {
+  background-color: #005ae2;
+  color: #fff;
+  transition: all 0.5s;
 }
