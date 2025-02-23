@@ -517,7 +517,9 @@
     rgba(30, 52, 72, 0)
   );
   margin: 0 auto;
-  border: 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form {
@@ -525,7 +527,7 @@
   height: 355px;
   background-color: #fff;
   border-radius: 12px;
-  margin: 100px auto;
+  margin: 0px auto;
 }
 
 .input_top {
@@ -600,6 +602,7 @@
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 24px;
+  cursor: pointer;
 }
 
 .input_cta p {
@@ -613,4 +616,74 @@
   color: #0065fe;
 }
 
+.faqs {
+  width: 1440px;
+  height: 953px;
+  margin: 0 auto;
+}
 
+.faq-container {
+  width: 60%;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+details {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+details:last-child{
+  border-bottom: none;
+}
+
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 10px;
+  background: transparent;
+  border-radius: 5px;
+  transition: background 0.3s;
+  list-style: none;
+}
+
+summary:hover {
+  background: #e0e0e0;
+}
+
+.faq-answer {
+  padding: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Plus and Minus Icon */
+summary::after {
+  content: "+";
+  font-size: 24px;
+  font-weight: 700;
+  transition: transform 0.3s ease;
+}
+
+details[open] summary::after {
+  content: "−"; /* Changes to minus when opened */
+}
